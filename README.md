@@ -3,7 +3,7 @@
 A beautiful, fully-functional React application built for managing a personal library of books. This project was developed as a technical evaluation to demonstrate expertise in modern React development, state management, and real-world REST API integration.
 
 ## 🔗 Live Demo
-* **Live URL:** [Insert your deployed Vercel/Netlify link here]
+* **Live URL:** [BookShelf Live Demo](https://book-management-system-ruddy.vercel.app)
 * **Repository:** [https://github.com/ishwari03/book-management-system](https://github.com/ishwari03/book-management-system)
 
 ## ✨ Key Features
