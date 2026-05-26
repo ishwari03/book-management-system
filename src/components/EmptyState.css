@@ -1,0 +1,104 @@
+/* --- Layout & Container --- */
+.empty-state-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  padding: 80px 16px;
+  text-align: center;
+}
+
+/* --- Typography --- */
+.empty-title {
+  font-size: 18px;
+  font-weight: 600;
+  color: #1e293b; /* slate-800 */
+  margin: 0 0 4px 0;
+}
+.empty-subtitle {
+  font-size: 14px;
+  color: #64748b; /* slate-500 */
+  max-width: 320px;
+  margin: 0 0 20px 0;
+  line-height: 1.5;
+}
+
+/* --- Icons & Graphic Wrappers --- */
+.empty-icon-wrapper {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border-radius: 16px;
+  margin-bottom: 16px;
+}
+.filter-icon-bg {
+  height: 64px;
+  width: 64px;
+  background-color: #f1f5f9; /* slate-100 */
+}
+.library-icon-bg {
+  height: 80px;
+  width: 80px;
+  background-color: #eef2ff; /* indigo-50 */
+}
+.library-icon-container {
+  position: relative;
+  margin-bottom: 24px;
+}
+.library-icon-badge {
+  position: absolute;
+  bottom: -4px;
+  right: -4px;
+  display: flex;
+  height: 28px;
+  width: 28px;
+  align-items: center;
+  justify-content: center;
+  border-radius: 50%;
+  background-color: #4f46e5; /* indigo-600 */
+  color: white;
+  box-shadow: 0 10px 15px -3px rgba(0, 0, 0, 0.1), 0 4px 6px -2px rgba(0, 0, 0, 0.05);
+}
+
+/* --- Buttons --- */
+.btn-empty {
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  gap: 8px;
+  padding: 10px 20px;
+  font-size: 14px;
+  font-weight: 500;
+  border-radius: 12px;
+  cursor: pointer;
+  transition: all 0.2s;
+  border: none;
+  outline: none;
+}
+.btn-clear {
+  background-color: transparent;
+  border: 1px solid #e2e8f0; /* slate-200 */
+  color: #475569; /* slate-600 */
+}
+.btn-clear:hover {
+  background-color: #f8fafc; /* slate-50 */
+}
+.btn-add {
+  background-color: #4f46e5; /* indigo-600 */
+  color: white;
+  box-shadow: 0 1px 2px rgba(0, 0, 0, 0.05);
+}
+.btn-add:hover {
+  background-color: #4338ca; /* indigo-700 */
+}
+.btn-add:active {
+  transform: scale(0.95);
+}
+
+/* --- Utilities --- */
+.icon-tiny { width: 16px; height: 16px; }
+.icon-small { width: 18px; height: 18px; }
+.icon-large { width: 32px; height: 32px; }
+.icon-huge { width: 40px; height: 40px; }
+.text-slate-400 { color: #94a3b8; }
+.text-indigo-400 { color: #818cf8; }

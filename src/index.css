@@ -1,0 +1,50 @@
+@import url('https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@0,400;0,600;1,400&family=Inter:wght@400;500&display=swap');
+
+/* --- Global Reset & Base Styles --- */
+:root {
+  /* The cozy journal typography */
+  --font-serif: 'Playfair Display', serif;
+  --font-sans: 'Inter', sans-serif;
+  
+  /* The new earthy color palette */
+  --bg-cream: #FDFbf7;
+  --text-dark: #3E3832;
+  --text-muted: #8C8276;
+  --accent-earth: #C2B6A9;
+  --border-soft: #EAE3D9;
+
+  font-family: var(--font-sans);
+  background-color: var(--bg-cream); /* Replacing the old slate-50 */
+  color: var(--text-dark);
+}
+*, *::before, *::after {
+  box-sizing: border-box;
+}
+
+body {
+  margin: 0;
+  display: block;
+  min-width: 320px;
+  min-height: 100vh;
+}
+
+h1, h2, h3, .brand-title {
+  font-family: var(--font-serif);
+  font-weight: 600;
+  letter-spacing: 0.5px;
+}
+
+a {
+  font-weight: 500;
+  color: #4f46e5;
+  text-decoration: inherit;
+}
+a:hover {
+  color: #3730a3;
+}
+
+/* Base input resets */
+input, button, textarea, select {
+  font: inherit;
+  color: inherit;
+}
